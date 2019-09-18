@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <EditText
+        android:id="@+id/ed_nota"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bt_salvar"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/insira_sua_nota"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/bt_salvar"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_apagar"
+        android:text="@string/salvar" />
+
+    <Button
+        android:id="@+id/bt_apagar"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:text="@string/remover" />
+
+</RelativeLayout>

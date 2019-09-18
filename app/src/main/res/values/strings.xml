@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RoomTestApp</string>
+    <string name="insira_sua_nota">Insira sua nota</string>
+    <string name="salvar">SALVAR</string>
+    <string name="remover">REMOVER</string>
+    <string name="nota_apagada">Nota apagada</string>
+    <string name="nota_nao_existe">Nota não existe</string>
+    <string name="nota_criada">Nota criada</string>
+    <string name="nota_atualizada">Nota atualizada</string>
+    <string name="crie_nota_primeiro">Crie uma nota primeiro</string>
+
+</resources>
